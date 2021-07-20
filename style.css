@@ -1,0 +1,99 @@
+@media(min-width:770px){
+
+    .container{
+        justify-content: center;
+       display: flex;
+       text-align: center;
+       justify-content: space-around;
+       
+   }
+
+}
+@media(max-width:500px){
+
+    body{
+        background-color: grey;
+    }
+    .container{
+        flex-wrap: wrap;
+       
+       
+    }
+
+
+}
+
+body{
+    background-color: lavender;
+  
+}
+
+/* flex property
+display : flex
+*/
+
+
+.container{
+    justify-content: center;
+   
+    color:white;
+}
+
+.container>div{
+    text-align: center;
+    flex-basis: 20%;
+    font-size: 20px;
+    border-radius: 20px;
+    background: linear-gradient(red,blue);
+    margin:10px;
+  
+    /* width: 20%; */
+   border:1px green solid;
+ 
+}
+
+.box1{
+
+
+  
+}
+.box2{
+   
+}
+.box3{
+ 
+    
+    
+}
+.box4{
+
+   
+}
+
+span:hover{
+    color:black;
+}
+
+/* flex:2 it will contain 2 boxex of many 
+order :1  will define order of div element this div will come first
+ align-items: flex-end; center/ by default stretch
+rather than width use flex-basis: 20%
+*/
+
+.thirdTask {
+   text-align: center;
+}
+
+
+.fou{
+   
+  
+       display: flex;
+      
+       justify-content: space-around;
+
+}
+
+.fourthTask{
+    background-color:gray;
+}
